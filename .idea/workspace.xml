@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="添加代理">
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/LoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/RemoteMapRegister.java" afterDir="false" />
+    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="引入注册中心的概念">
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/resources/RPC协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/resources/【批量下载】手写Dubbo等的副本.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/LocalRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/LocalRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +53,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo-simulate/src/main/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wangjh.provider.api" />
       <recent name="com.wangjh.provider" />
@@ -71,6 +74,7 @@
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wangjh.comsumer.Consumer" />
       <module name="dubbo-simulate" />
+      <option name="VM_PARAMETERS" value="-Dmock=return:123" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wangjh.comsumer.*" />
@@ -94,6 +98,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="应用程序.Consumer" />
+      <item itemvalue="应用程序.Provider" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.Consumer" />
@@ -109,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654703867205</updated>
-      <workItem from="1654703868340" duration="19944000" />
+      <workItem from="1654703868340" duration="22861000" />
     </task>
     <task id="LOCAL-00001" summary="初版RPC  http请求">
       <created>1654783793523</created>
@@ -125,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654790024469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="引入注册中心的概念">
+      <created>1654794964589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654794964589</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +160,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初版RPC  http请求" />
     <MESSAGE value="添加代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加代理" />
+    <MESSAGE value="引入注册中心的概念" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入注册中心的概念" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

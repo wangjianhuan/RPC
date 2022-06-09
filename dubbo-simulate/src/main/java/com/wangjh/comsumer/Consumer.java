@@ -1,6 +1,7 @@
 package com.wangjh.comsumer;
 
 import com.wangjh.framework.Invocation;
+import com.wangjh.framework.ProxyFactory;
 import com.wangjh.framework.protocol.http.HttpClient;
 import com.wangjh.provider.api.HelloService;
 
@@ -15,11 +16,10 @@ public class Consumer {
         //启动   网络传输   接收请求
         // Tomcat Netty Jetty Socket
         //支持配置  读取配置
-        HttpClient httpClient = new HttpClient();
-        Invocation invocation = new Invocation(HelloService.class.getName(), "sayHello", new Class[]{String.class}, new Object[]{"wangjh"});
-        String result = httpClient.send("localhost", 8080, invocation);
+        HelloService helloService = ProxyFactory.getProxy(HelloService.class);
+        String s = helloService.sayHello("王建欢2");
 
-        System.out.println("result = " + result);
+        System.out.println("result = " + s);
 
 
     }

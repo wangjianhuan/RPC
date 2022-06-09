@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/LocalRegister.java" afterDir="false" />
+    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="初版RPC  http请求">
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-simulate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +104,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654703867205</updated>
-      <workItem from="1654703868340" duration="11290000" />
+      <workItem from="1654703868340" duration="15234000" />
     </task>
+    <task id="LOCAL-00001" summary="初版RPC  http请求">
+      <created>1654783793523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654783793523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初版RPC  http请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="初版RPC  http请求" />
   </component>
 </project>

@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="" />
+    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/Invocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/LocalRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/protocol/http/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,6 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2AIjCXc9PI4RDv1J88d8h4XjzBS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +56,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -46,6 +66,43 @@
       <recent name="com.wangjh.provider.api" />
       <recent name="com.wangjh.provider" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangjh.framework.protocol.http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangjh.comsumer.Consumer" />
+      <module name="dubbo-simulate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangjh.comsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangjh.provider.Provider" />
+      <module name="dubbo-simulate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangjh.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Consumer" />
+        <item itemvalue="应用程序.Provider" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,11 +112,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654703867205</updated>
-      <workItem from="1654703868340" duration="2087000" />
+      <workItem from="1654703868340" duration="11290000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

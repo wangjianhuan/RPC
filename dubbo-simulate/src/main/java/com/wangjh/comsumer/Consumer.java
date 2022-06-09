@@ -1,8 +1,6 @@
 package com.wangjh.comsumer;
 
-import com.wangjh.framework.Invocation;
 import com.wangjh.framework.ProxyFactory;
-import com.wangjh.framework.protocol.http.HttpClient;
 import com.wangjh.provider.api.HelloService;
 
 /**

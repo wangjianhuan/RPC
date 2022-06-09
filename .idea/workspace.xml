@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="初版RPC  http请求">
-      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java" afterDir="false" />
+    <list default="true" id="cc279ff1-947c-4e43-b837-9a1c813e1242" name="变更" comment="添加代理">
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/LoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/RemoteMapRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/comsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/LocalRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/framework/register/LocalRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-simulate/src/main/java/com/wangjh/provider/Provider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654703867205</updated>
-      <workItem from="1654703868340" duration="15234000" />
+      <workItem from="1654703868340" duration="19944000" />
     </task>
     <task id="LOCAL-00001" summary="初版RPC  http请求">
       <created>1654783793523</created>
@@ -113,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654783793523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加代理">
+      <created>1654790024469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654790024469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初版RPC  http请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="初版RPC  http请求" />
+    <MESSAGE value="添加代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加代理" />
   </component>
 </project>
